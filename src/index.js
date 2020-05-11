@@ -2,7 +2,9 @@ import './index.css'
 import React from 'react'
 import ReactDom from 'react-dom'
 
+import Primeiro from './components/Primeiro'
+
 ReactDom.render(
-    <h1>Olá mundo</h1>,
+    <Primeiro></Primeiro>,
     document.getElementById('root')
 )

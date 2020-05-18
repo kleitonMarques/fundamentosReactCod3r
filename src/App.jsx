@@ -13,7 +13,7 @@ import Pai from './components/comunicacao/direta/Pai'
 export default props => (
     <div className="App">
         <Card titulo="#07 - Comunicação Direta" color="#4298B5">
-            <Pai></Pai>
+            <Pai sobrenome="Freitas"></Pai>
         </Card>
 
         <Card titulo="#06 - Condicional v2" color="#FA6900">

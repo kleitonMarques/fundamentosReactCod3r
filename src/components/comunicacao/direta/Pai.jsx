@@ -3,7 +3,7 @@ import Filho from './Filho'
 
 export default props => 
     <div>
-        <Filho sobrenome="Silva">João</Filho>
-        <Filho sobrenome="Silva">Maria</Filho>
+        <Filho {...props}><strong>João</strong></Filho>
+        <Filho sobrenome={props.sobrenome}>Maria</Filho>
         <Filho sobrenome="Silva">Pedro</Filho>
     </div>

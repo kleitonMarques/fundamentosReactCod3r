@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 export default props => {
     let [nome, setNome] = useState('Pedro')
 
-
-
     return (
         <>
             <h3>{nome}</h3>
